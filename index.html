@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Explorer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    
+    <div class="wrapper">
+        <header>
+            <h1>Flight Explorer</h1>
+            <p>Search real time flight information!</p>
+        </header>
+        
+        <!-- the search form -->
+        <section class="search-section">
+            <form id="search-form">
+                <input 
+
+                    type="text"
+                    id="flight-input"
+                    placeholder="Enter flight number (e.g., TP217)"
+                    required>
+
+                <button type="submit">Search</button>
+
+            </form>
+
+        </section>
+
+        <div id="loader" class="loader">
+            
+            <div class="plane"></div>
+        </div>
+
+        <section id="results"></section>
+
+        <section class="suggestions">
+
+    <p>Try searching one of these flights:</p>
+
+    <div class="suggestion-buttons">
+
+        <button class="suggest-btn" data-flight="AA100">AA100</button>
+        <button class="suggest-btn" data-flight="DL220">DL220</button>
+        <button class="suggest-btn" data-flight="UA415">UA415</button>
+
+    </div>
+
+</section>
+
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+.wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #0052BD;
+    margin: 0;
+    font-size: 2rem;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.search-section form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#flight-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 16px;
+    background: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005fcc;
+}
+
+/* Flight card styling */
+.flight-card {
+    background: #f0f6ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-left: 5px solid #0078ff;
+}
+
+.flight-card h3 {
+    margin-top: 0;
+}
+
+.suggestions {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
+
+.suggestion-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.suggest-btn {
+    padding: 8px 14px;
+    background: #425477;
+    border: 1px solid #326ad3;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.suggest-btn:hover {
+    background: #6588c5;
+}
+
+/* From Uiverse.io by Fernando-sv */ 
+.loader {
+  border: 4px solid rgba(0, 0, 0, .1);
+  border-left-color: transparent;
+  border-radius: 50%;
+}
+
+.loader {
+  border: 4px solid rgba(0, 0, 0, .1);
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+}
+
+.loader {
+  border: 4px solid rgba(0, 0, 0, .1);
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+  animation: spin89345 1s linear infinite;
+}
+
+#loader {
+    display: none;         
+    margin: 20px auto;     
+}
+
+#loader.active {
+    display: block;         
+}
+
+@keyframes spin89345 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
