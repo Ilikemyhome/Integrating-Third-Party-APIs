@@ -17,16 +17,16 @@ A simple web application that retrieves real‑time flight information using a p
 - Public Flight API 
 
 ### Project Structure
-/project
-│── index.html
-│── README.md
-│── /css
-│     └── styles.css
-│── /js
-│     ├── app.js
-│     ├── api.js
-│     └── components
-│           └── flightCard.js
+        /project
+        │── index.html
+        │── README.md
+        │── /css
+        │     └── styles.css
+        │── /js
+        │     ├── app.js
+        │     ├── api.js
+        │     └── components
+        │           └── flightCard.js
 
 
 ### How to Run
@@ -45,7 +45,7 @@ Test the app with:
 
 ### Write‑Up
 
-I selected a public aviation API because it provides real time, meaningful data that users can interact with. Flight tracking is a common real‑world need, and the API documentation was clear and beginner friendly. I also Like planes and Im facinated by those plane trackers with the maps.
+I selected a public aviation API because it provides real time, meaningful data that users can interact with. Flight tracking is a common real‑world need, and the API documentation was clear and beginner friendly. I also Like planes and I'm facinated by those plane trackers with the maps.
 
 The application allows users to search for any flight by number and instantly see its status, departure/arrival airports, and schedule. It includes a loader animation, suggested flights, and error handling.
 Challenges:
